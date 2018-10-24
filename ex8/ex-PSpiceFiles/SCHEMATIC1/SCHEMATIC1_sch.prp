@@ -1,0 +1,352 @@
+("FILE_TYPE"	"PMAP File"
+    ("devices"
+        ("VAC")
+        ("R")
+        ("L")
+        ("C")
+        ("VPRINT1")
+    )
+    ("instances"
+        ("V1"
+            ("device_name"	"VAC")
+            ("pspice_path"	"V_V1")
+            ("level"	"0")
+            ("model_params"
+                ("DC"
+                    ("value"	"0")
+                    ("pspice_param"	"DC")
+                )
+                ("ACMAG"
+                    ("value"	"100")
+                    ("pspice_param"	"AC")
+                )
+                ("ACPHASE"
+                    ("value"	"120")
+                    ("pspice_param"	"ACPHASE")
+                )
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("V2"
+            ("device_name"	"VAC")
+            ("pspice_path"	"V_V2")
+            ("level"	"0")
+            ("model_params"
+                ("DC"
+                    ("value"	"0")
+                    ("pspice_param"	"DC")
+                )
+                ("ACMAG"
+                    ("value"	"100")
+                    ("pspice_param"	"AC")
+                )
+                ("ACPHASE"
+                    ("value"	"0")
+                    ("pspice_param"	"ACPHASE")
+                )
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("V3"
+            ("device_name"	"VAC")
+            ("pspice_path"	"V_V3")
+            ("level"	"0")
+            ("model_params"
+                ("DC"
+                    ("value"	"0")
+                    ("pspice_param"	"DC")
+                )
+                ("ACMAG"
+                    ("value"	"100")
+                    ("pspice_param"	"AC")
+                )
+                ("ACPHASE"
+                    ("value"	"-120")
+                    ("pspice_param"	"ACPHASE")
+                )
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
+                )
+            )
+        )
+        ("R1"
+            ("device_name"	"R")
+            ("pspice_path"	"R_R1")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"40")
+                    ("pspice_param"	"VALUE")
+                )
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("VOLTAGE"
+                    ("value"	"RVMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("SLOPE"
+                    ("value"	"RSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("MAX_TEMP"
+                    ("value"	"RTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+                ("POWER"
+                    ("value"	"RMAX")
+                    ("pspice_param"	"POWER")
+                )
+                ("TC1"
+                    ("value"	"0")
+                    ("pspice_param"	"TC1")
+                )
+                ("TC2"
+                    ("value"	"0")
+                    ("pspice_param"	"TC2")
+                )
+            )
+        )
+        ("L2"
+            ("device_name"	"L")
+            ("pspice_path"	"L_L2")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"10m")
+                    ("pspice_param"	"VALUE")
+                )
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
+                )
+                ("TC2"
+                    ("value"	"0")
+                    ("pspice_param"	"TC2")
+                )
+                ("TC1"
+                    ("value"	"0")
+                    ("pspice_param"	"TC1")
+                )
+                ("IL2"
+                    ("value"	"0")
+                    ("pspice_param"	"IL2")
+                )
+                ("IL1"
+                    ("value"	"0")
+                    ("pspice_param"	"IL1")
+                )
+                ("DIELECTRIC"
+                    ("value"	"DSMAX")
+                    ("pspice_param"	"DIELECTRIC")
+                )
+                ("CURRENT"
+                    ("value"	"LMAX")
+                    ("pspice_param"	"CURRENT")
+                )
+                ("IC"
+                    ("value"	"")
+                    ("pspice_param"	"IC")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+                )
+            )
+        )
+        ("C1"
+            ("device_name"	"C")
+            ("pspice_path"	"C_C1")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"0.2m")
+                    ("pspice_param"	"VALUE")
+                )
+                ("VC2"
+                    ("value"	"0")
+                    ("pspice_param"	"VC2")
+                )
+                ("VC1"
+                    ("value"	"0")
+                    ("pspice_param"	"VC1")
+                )
+                ("MAX_TEMP"
+                    ("value"	"CTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+                ("SLOPE"
+                    ("value"	"CSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("KNEE"
+                    ("value"	"CBMAX")
+                    ("pspice_param"	"KNEE")
+                )
+                ("CURRENT"
+                    ("value"	"CIMAX")
+                    ("pspice_param"	"CURRENT")
+                )
+                ("VOLTAGE"
+                    ("value"	"CMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("IC"
+                    ("value"	"")
+                    ("pspice_param"	"IC")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+                )
+                ("TC1"
+                    ("value"	"0")
+                    ("pspice_param"	"TC1")
+                )
+                ("TC2"
+                    ("value"	"0")
+                    ("pspice_param"	"TC2")
+                )
+            )
+        )
+        (""
+            ("device_name"	"VPRINT1")
+            ("pspice_path"	"")
+            ("level"	"0")
+            ("model_params"
+                ("PHASE"
+                    ("value"	"ok")
+                    ("pspice_param"	"PHASE")
+                )
+                ("AC"
+                    ("value"	"yes")
+                    ("pspice_param"	"AC")
+                )
+                ("MAG"
+                    ("value"	"ok")
+                    ("pspice_param"	"MAG")
+                )
+                ("DB"
+                    ("value"	"")
+                    ("pspice_param"	"DB")
+                )
+                ("IMAG"
+                    ("value"	"")
+                    ("pspice_param"	"IMAG")
+                )
+                ("REAL"
+                    ("value"	"")
+                    ("pspice_param"	"REAL")
+                )
+                ("TRAN"
+                    ("value"	"")
+                    ("pspice_param"	"TRAN")
+                )
+                ("DC"
+                    ("value"	"")
+                    ("pspice_param"	"DC")
+                )
+                ("PRINT"
+                    ("value"	".PRINT")
+                    ("pspice_param"	"PRINT")
+                )
+                ("MAG"
+                    ("value"	"ok")
+                    ("pspice_param"	"MAG")
+                )
+                ("AC"
+                    ("value"	"yes")
+                    ("pspice_param"	"AC")
+                )
+                ("PHASE"
+                    ("value"	"ok")
+                    ("pspice_param"	"PHASE")
+                )
+                ("DB"
+                    ("value"	"")
+                    ("pspice_param"	"DB")
+                )
+                ("IMAG"
+                    ("value"	"")
+                    ("pspice_param"	"IMAG")
+                )
+                ("REAL"
+                    ("value"	"")
+                    ("pspice_param"	"REAL")
+                )
+                ("TRAN"
+                    ("value"	"")
+                    ("pspice_param"	"TRAN")
+                )
+                ("DC"
+                    ("value"	"")
+                    ("pspice_param"	"DC")
+                )
+                ("PRINT"
+                    ("value"	".PRINT")
+                    ("pspice_param"	"PRINT")
+                )
+                ("MAG"
+                    ("value"	"ok")
+                    ("pspice_param"	"MAG")
+                )
+                ("PHASE"
+                    ("value"	"ok")
+                    ("pspice_param"	"PHASE")
+                )
+                ("AC"
+                    ("value"	"yes")
+                    ("pspice_param"	"AC")
+                )
+                ("DB"
+                    ("value"	"")
+                    ("pspice_param"	"DB")
+                )
+                ("IMAG"
+                    ("value"	"")
+                    ("pspice_param"	"IMAG")
+                )
+                ("REAL"
+                    ("value"	"")
+                    ("pspice_param"	"REAL")
+                )
+                ("TRAN"
+                    ("value"	"")
+                    ("pspice_param"	"TRAN")
+                )
+                ("DC"
+                    ("value"	"")
+                    ("pspice_param"	"DC")
+                )
+                ("PRINT"
+                    ("value"	".PRINT")
+                    ("pspice_param"	"PRINT")
+                )
+            )
+        )
+    )
+)

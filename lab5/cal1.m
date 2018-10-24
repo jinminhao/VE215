@@ -1,0 +1,9 @@
+high=[4.86,4.86,4.82,4.70,4.46,2.25,1.25,0.285];
+trhigh=high./5.00;
+trdbhigh=20.*log10(trhigh);
+the=[0.9999,0.9999,0.9995,0.9871,0.9513,0.5251,0.2948,0.0616];
+thedb=[-0.0011,-0.0724,-0.0046,-0.1126,-0.4339,-0.5952,-10.6096,-24.2107];
+error1=the-trhigh;
+error2=thedb-trdbhigh;
+reerror1=100*error1./the;
+reerror2=100*error2./thedb;

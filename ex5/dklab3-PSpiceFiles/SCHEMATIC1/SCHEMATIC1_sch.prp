@@ -1,0 +1,98 @@
+("FILE_TYPE"	"PMAP File"
+    ("devices"
+        ("VPULSE")
+        ("r")
+        ("c")
+    )
+    ("instances"
+        ("V1"
+            ("device_name"	"VPULSE")
+            ("pspice_path"	"V_V1")
+            ("level"	"0")
+            ("model_params"
+                ("TF"
+                    ("value"	"1n")
+                    ("pspice_param"	"TF")
+                )
+                ("V2"
+                    ("value"	"0.5")
+                    ("pspice_param"	"V2")
+                )
+                ("V1"
+                    ("value"	"-0.5")
+                    ("pspice_param"	"V1")
+                )
+                ("TD"
+                    ("value"	"0.5m")
+                    ("pspice_param"	"TD")
+                )
+                ("TR"
+                    ("value"	"1n")
+                    ("pspice_param"	"TR")
+                )
+                ("PER"
+                    ("value"	"1.1m")
+                    ("pspice_param"	"PER")
+                )
+                ("PW"
+                    ("value"	"0.5m")
+                    ("pspice_param"	"PW")
+                )
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
+                )
+                ("AC"
+                    ("value"	"")
+                    ("pspice_param"	"AC")
+                )
+                ("DC"
+                    ("value"	"")
+                    ("pspice_param"	"DC")
+                )
+            )
+        )
+        ("R1"
+            ("device_name"	"r")
+            ("pspice_path"	"R_R1")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"1000")
+                    ("pspice_param"	"VALUE")
+                )
+                ("BiasValue Power"
+                    ("value"	"0W")
+                    ("pspice_param"	"BiasValue Power")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+            )
+        )
+        ("C2"
+            ("device_name"	"c")
+            ("pspice_path"	"C_C2")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"100n")
+                    ("pspice_param"	"VALUE")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("TC"
+                    ("value"	"")
+                    ("pspice_param"	"TC")
+                )
+                ("IC"
+                    ("value"	"")
+                    ("pspice_param"	"IC")
+                )
+            )
+        )
+    )
+)

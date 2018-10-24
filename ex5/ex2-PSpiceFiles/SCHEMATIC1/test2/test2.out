@@ -1,0 +1,87 @@
+
+**** 10/23/17 10:23:09 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-test2"  [ D:\VE215\ex5\ex2-pspicefiles\schematic1\test2.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 20 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EX2
+R_R1         N00313 N00916  3 TC=0,0 
+R_R3         0 N00313  6 TC=0,0 
+R_R2         N00313 N002750  4 TC=0,0 
+V_V1         N00916 0 108
+L_L1         0 N002750  2 IC=7.714 
+
+**** RESUMING test2.cir ****
+.END
+
+**** 10/23/17 10:23:09 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-test2"  [ D:\VE215\ex5\ex2-pspicefiles\schematic1\test2.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00313)   87.4280 (N00916)  108.0000 (N002750)  118.2800                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -6.857E+00
+
+    TOTAL POWER DISSIPATION   7.41E+02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 10/23/17 10:23:09 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-test2"  [ D:\VE215\ex5\ex2-pspicefiles\schematic1\test2.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

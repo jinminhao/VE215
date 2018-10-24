@@ -1,0 +1,44 @@
+
+**** 10/24/17 20:29:20 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-ex6"  [ D:\VE215\lab3\ex6-PSpiceFiles\SCHEMATIC1\ex6.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ex6.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 1ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EX6
+V_V1         N00309 0  
++PULSE -1 1 0.05m 0 0 1m 1m
+R_R1         N00309 N00323  2100 TC=0,0 
+C_C1         0 N00323  100n  TC=0,0 
+L_L1         N00309 N00309  0.001  
+
+**** RESUMING ex6.cir ****
+.END
+
+ERROR(ORPSIM-15143): Voltage source and/or inductor loop involving L_L1. You may break the loop by adding a series resistance
+

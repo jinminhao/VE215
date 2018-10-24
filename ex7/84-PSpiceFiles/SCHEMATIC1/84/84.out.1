@@ -1,0 +1,108 @@
+
+**** 11/08/17 09:53:51 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-84"  [ D:\VE215\ex7\84-pspicefiles\schematic1\84.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "84.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 1 0.159 0.159
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source 84
+C_C1         N00082 N00201  0.5  TC=0,0 
+L_L1         N00082 N00152  4  
+R_R1         0 N00152  1 TC=0,0 
+R_R2         0 N00201  2 TC=0,0 
+G_G1         N00201 N00152 N00152 0 2
+I_I1         N00082 0 DC 0Adc AC 3Aac 0
+           
+.PRINT         AC 
++ VM([N00201]) 
++ VP([N00201])    
+
+**** RESUMING 84.cir ****
+.END
+
+**** 11/08/17 09:53:51 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-84"  [ D:\VE215\ex7\84-pspicefiles\schematic1\84.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00082)    0.0000 (N00152)    0.0000 (N00201)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+**** 11/08/17 09:53:51 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-84"  [ D:\VE215\ex7\84-pspicefiles\schematic1\84.sim ] 
+
+
+ ****     AC ANALYSIS                      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+  FREQ        VM(N00201)  VP(N00201)  
+
+
+   1.590E-01   1.666E+00  -1.459E+02
+
+
+          JOB CONCLUDED
+
+**** 11/08/17 09:53:51 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-84"  [ D:\VE215\ex7\84-pspicefiles\schematic1\84.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        0.00
+

@@ -1,0 +1,87 @@
+
+**** 10/29/17 22:23:08 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-ex6"  [ D:\VE215\ex6\ex6-PSpiceFiles\SCHEMATIC1\ex6.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ex6.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 4 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EX6
+V_V1         N00062 0 24
+R_R1         N00062 N00106  6 TC=0,0 
+L_L1         N00106 N00139  2 IC=0 
+R_R2         0 N00139  3 TC=0,0 
+C_C1         0 N00139  0.4 IC=0 TC=0,0 
+
+**** RESUMING ex6.cir ****
+.END
+
+**** 10/29/17 22:23:08 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-ex6"  [ D:\VE215\ex6\ex6-PSpiceFiles\SCHEMATIC1\ex6.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00062)   24.0000 (N00106)   24.0000 (N00139) 47.97E-12 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.400E-08
+
+    TOTAL POWER DISSIPATION   5.76E-07  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 10/29/17 22:23:08 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-ex6"  [ D:\VE215\ex6\ex6-PSpiceFiles\SCHEMATIC1\ex6.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        0.00
+

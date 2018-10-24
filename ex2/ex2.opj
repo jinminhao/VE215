@@ -1,0 +1,164 @@
+(ExpressProject "ex2"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\74ac.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\74act.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\74als.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\74as.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\74f.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\74h.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\74hc.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\74hct.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\74l.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\74ls.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\74s.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\7400.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\abm.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\analog.olb"
+        (Type "Schematic Library"))
+      (File
+         "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\analog_p.olb"
+        (Type "Schematic Library"))
+      (File
+         "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\anl_misc.olb"
+        (Type "Schematic Library"))
+      (File
+         "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\breakout.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\cd4000.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\dig_abm.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\dig_ecl.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\dig_gal.olb"
+        (Type "Schematic Library"))
+      (File
+         "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\dig_misc.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\dig_pal.olb"
+        (Type "Schematic Library"))
+      (File
+         "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\dig_prim.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\eval.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\evalaa.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\evalp.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\source.olb"
+        (Type "Schematic Library"))
+      (File
+         "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\sourcstm.olb"
+        (Type "Schematic Library"))
+      (File "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\special.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\ex2.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\ex2-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ex2-pspicefiles\schematic1\test.sim"
+        (DisplayName "SCHEMATIC1-test")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\ex2-pspicefiles\schematic1\test2.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ex2-pspicefiles\schematic1\test2.sim"
+        (DisplayName "SCHEMATIC1-test2")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (0
+      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\OrCAD\OrCAD_16.6_Lite\tools\capture\library\pspice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "D:\VE215\ex2\ex2.dsn")
+      (Path "Design Resources" "D:\VE215\ex2\ex2.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "c:\orcad\orcad_16.6_lite\tools\capture\library\pspice\source.olb")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -38 0 200 0 405"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 64 1612 64 516")
+        (Scroll "-135 186")
+        (Zoom "116")
+        (Occurrence "/"))
+      (Path "D:\VE215\EX2\EX2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 128 1377 128 580")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "1297 269")
+        (Zoom "314"))
+      (Path "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\74AC.OLB")
+      (Package "74AC109"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 160 1409 160 612")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "3246 990")
+        (Zoom "639"))
+      (Path "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (Package "VAC")))
+  (MPSSessionName "jinmi"))

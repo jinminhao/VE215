@@ -1,0 +1,44 @@
+
+**** 10/24/17 13:29:28 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-simlab3dk"  [ D:\VE215\ex5\dklab3-PSpiceFiles\SCHEMATIC1\simlab3dk.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "simlab3dk.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 1m 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source DKLAB3
+V_V1         N00186 0  
++PULSE 0 1 0.5 1n 1n 1 10
+R_R1         N00186 N00186  2208  
+C_C2         0 N00186  820p   
+L_L1         N00186 N00186  1mH  
+
+**** RESUMING simlab3dk.cir ****
+.END
+
+ERROR(ORPSIM-15143): Voltage source and/or inductor loop involving L_L1. You may break the loop by adding a series resistance
+

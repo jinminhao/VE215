@@ -1,0 +1,10 @@
+* source EX3
+V_V1         N00076 0 6
+R_R1         N00076 N00092  3k TC=0,0 
+X_F1    N00092 0 N00251 0 SCHEMATIC1_F1 
+R_R2         0 N00251  2k TC=0,0 
+
+.subckt SCHEMATIC1_F1 1 2 3 4  
+F_F1         3 4 VF_F1 20
+VF_F1         1 2 0V
+.ends SCHEMATIC1_F1

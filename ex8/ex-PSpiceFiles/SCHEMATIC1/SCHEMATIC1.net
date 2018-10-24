@@ -1,0 +1,19 @@
+* source EX
+V_V1         N00217 N00119 DC 0 AC 100 120
+V_V2         N00229 N00119 DC 0 AC 100 0
+V_V3         N00134 N00119 DC 0 AC 100 -120
+R_R1         N00134 0  40 TC=0,0 
+L_L2         N00217 0  10m  
+C_C1         0 N00229  0.2m  TC=0,0 
+           
+.PRINT         AC 
++ VM([N00134]) 
++ VP([N00134])    
+           
+.PRINT         AC 
++ VM([N00217]) 
++ VP([N00217])    
+           
+.PRINT         AC 
++ VM([N00229]) 
++ VP([N00229])    

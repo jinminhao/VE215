@@ -1,0 +1,7 @@
+.ALIASES
+L_L2            L2(1=0 2=N14435 ) CN @XBB.SCHEMATIC1(sch_1):INS14319@ANALOG_P.l.Normal(chips)
+R_R1            R1(1=N14417 2=N14426 ) CN @XBB.SCHEMATIC1(sch_1):INS14344@ANALOG_P.r.Normal(chips)
+R_R2            R2(1=N14426 2=N14435 ) CN @XBB.SCHEMATIC1(sch_1):INS14360@ANALOG_P.r.Normal(chips)
+R_R3            R3(1=0 2=N14426 ) CN @XBB.SCHEMATIC1(sch_1):INS14376@ANALOG_P.r.Normal(chips)
+V_V1            V1(+=N14417 -=0 ) CN @XBB.SCHEMATIC1(sch_1):INS14401@SOURCE.VDC.Normal(chips)
+.ENDALIASES
